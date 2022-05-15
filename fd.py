@@ -1,3 +1,5 @@
+#for XML file Refer https://github.com/opencv/opencv/tree/master/data/haarcascades
+
 import cv2
 
 trained_face_data = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
