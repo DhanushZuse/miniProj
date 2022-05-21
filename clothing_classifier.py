@@ -23,7 +23,7 @@ model = keras.Sequential([
     # hidden layer with 128 deep
     keras.layers.Dense(units=128, activation=tf.nn.relu),
 
-    # output is 0-10 (depending o clothing)
+    # output is 0-10 (depending on clothing)
     keras.layers.Dense(units=10, activation=tf.nn.softmax)
 
 ])
